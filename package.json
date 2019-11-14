@@ -1,33 +1,37 @@
 {
-  "_from": "vuepress-theme-reco@1.1.1",
+  "_args": [
+    [
+      "vuepress-theme-reco-ldy@1.1.1-ldy.1",
+      "C:\\Users\\liudongyang\\IdeaProjects\\vueblog"
+    ]
+  ],
+  "_from": "vuepress-theme-reco-ldy@1.1.1-ldy.2",
   "_inBundle": false,
-  "_integrity": "sha512-bNP7azxyjQ8N9gGWmL0lHFe84brjY88t6Fd1fitwwQ2uLd4mFqxON+O7mC7ue66kRnhZijFZoDTGDgEYU4u0bw==",
-  "_location": "/vuepress-theme-reco",
+  "_integrity": "sha512-3XKYf2HjzOSjQsF2Us35uph8Cy925x2tFhvZTIzO9IA1/IAXrBpiG20DwZgVfXlJDAekWW2VNLEcBJofFPAvVA==",
+  "_location": "/vuepress-theme-reco-ldy",
   "_phantomChildren": {
     "medium-zoom": "1.0.4"
   },
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "vuepress-theme-reco@1.1.1",
-    "name": "vuepress-theme-reco",
-    "escapedName": "vuepress-theme-reco",
-    "rawSpec": "1.1.1",
+    "raw": "vuepress-theme-reco-ldy@1.1.1-ldy.2",
+    "name": "vuepress-theme-reco-ldy",
+    "escapedName": "vuepress-theme-reco-ldy",
+    "rawSpec": "1.1.1-ldy.2",
     "saveSpec": null,
-    "fetchSpec": "1.1.1"
+    "fetchSpec": "1.1.1-ldy.2"
   },
   "_requiredBy": [
-    "#DEV:/"
+    "/"
   ],
-  "_resolved": "https://registry.npmjs.org/vuepress-theme-reco/-/vuepress-theme-reco-1.1.1.tgz",
-  "_shasum": "2c2b3012729b393afa698498250900ac02008f43",
-  "_spec": "vuepress-theme-reco@1.1.1",
+  "_resolved": "https://registry.npmjs.org/vuepress-theme-reco-ldy/-/vuepress-theme-reco-ldy-1.1.1-ldy.2.tgz",
+  "_spec": "1.1.1-ldy.2",
   "_where": "C:\\Users\\liudongyang\\IdeaProjects\\vueblog",
-  "author": "reco_luan",
+  "author": "ldy",
   "bugs": {
-    "url": "https://github.com/vuepress-reco/vuepress-theme-reco/issues"
+    "url": "https://github.com/gitldy1013/vuepress-theme-ldy/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "@vuepress-reco/vuepress-plugin-back-to-top": "^1.0.3",
     "@vuepress-reco/vuepress-plugin-comments": "^1.0.7",
@@ -43,7 +47,6 @@
     "valine": "1.3.6",
     "vue-click-outside": "1.0.7"
   },
-  "deprecated": false,
   "description": "A simple and beautiful vuepress Blog & Doc theme.",
   "devDependencies": {
     "babel-eslint": "^10.0.3",
@@ -61,12 +64,12 @@
   "name": "vuepress-theme-reco-ldy",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vuepress-reco/vuepress-theme-reco.git"
+    "url": "git+https://github.com/gitldy1013/vuepress-theme-ldy.git"
   },
   "scripts": {
     "eslint-ext": "eslint --ext .js,.vue ./",
     "eslint-fix": "eslint --fix --ext .js,.vue ./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.1.1-ldy.1"
+  "version": "1.1.1-ldy.3"
 }
