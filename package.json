@@ -1,0 +1,75 @@
+{
+  "_from": "vuepress-theme-reco@1.1.1",
+  "_id": "vuepress-theme-reco@1.1.1",
+  "_inBundle": false,
+  "_integrity": "sha512-bNP7azxyjQ8N9gGWmL0lHFe84brjY88t6Fd1fitwwQ2uLd4mFqxON+O7mC7ue66kRnhZijFZoDTGDgEYU4u0bw==",
+  "_location": "/vuepress-theme-reco",
+  "_phantomChildren": {
+    "medium-zoom": "1.0.4"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "vuepress-theme-reco@1.1.1",
+    "name": "vuepress-theme-reco",
+    "escapedName": "vuepress-theme-reco",
+    "rawSpec": "1.1.1",
+    "saveSpec": null,
+    "fetchSpec": "1.1.1"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/vuepress-theme-reco/-/vuepress-theme-reco-1.1.1.tgz",
+  "_shasum": "2c2b3012729b393afa698498250900ac02008f43",
+  "_spec": "vuepress-theme-reco@1.1.1",
+  "_where": "C:\\Users\\liudongyang\\IdeaProjects\\vueblog",
+  "author": {
+    "name": "reco_luan"
+  },
+  "bugs": {
+    "url": "https://github.com/vuepress-reco/vuepress-theme-reco/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@vuepress-reco/vuepress-plugin-back-to-top": "^1.0.3",
+    "@vuepress-reco/vuepress-plugin-comments": "^1.0.7",
+    "@vuepress-reco/vuepress-plugin-extract-code": "^1.0.3",
+    "@vuepress-reco/vuepress-plugin-ga": "^1.0.2",
+    "@vuepress-reco/vuepress-plugin-loading-page": "^1.0.0",
+    "@vuepress-reco/vuepress-plugin-pagation": "^1.0.3",
+    "@vuepress-reco/vuepress-plugin-screenfull": "^1.0.0",
+    "@vuepress/plugin-blog": "1.3.0",
+    "@vuepress/plugin-medium-zoom": "1.2.0",
+    "docsearch.js": "^2.5.2",
+    "leancloud-storage": "3.13.2",
+    "valine": "1.3.6",
+    "vue-click-outside": "1.0.7"
+  },
+  "deprecated": false,
+  "description": "A simple and beautiful vuepress Blog & Doc theme.",
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.4.0",
+    "eslint-plugin-vue": "^5.2.3"
+  },
+  "homepage": "https://vuepress-theme-reco.recoluan.com",
+  "keywords": [
+    "vuepress",
+    "vue",
+    "theme"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "vuepress-theme-reco",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuepress-reco/vuepress-theme-reco.git"
+  },
+  "scripts": {
+    "eslint-ext": "eslint --ext .js,.vue ./",
+    "eslint-fix": "eslint --fix --ext .js,.vue ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.1"
+}
