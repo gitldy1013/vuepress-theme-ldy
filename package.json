@@ -1,11 +1,11 @@
 {
   "_args": [
     [
-      "vuepress-theme-reco-ldy@1.1.1-ldy.1",
+      "vuepress-theme-reco-ldy@1.1.1-ldy.3",
       "C:\\Users\\liudongyang\\IdeaProjects\\vueblog"
     ]
   ],
-  "_from": "vuepress-theme-reco-ldy@1.1.1-ldy.2",
+  "_from": "vuepress-theme-reco-ldy@1.1.1-ldy.3",
   "_inBundle": false,
   "_integrity": "sha512-3XKYf2HjzOSjQsF2Us35uph8Cy925x2tFhvZTIzO9IA1/IAXrBpiG20DwZgVfXlJDAekWW2VNLEcBJofFPAvVA==",
   "_location": "/vuepress-theme-reco-ldy",
@@ -15,18 +15,18 @@
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "vuepress-theme-reco-ldy@1.1.1-ldy.2",
+    "raw": "vuepress-theme-reco-ldy@1.1.1-ldy.3",
     "name": "vuepress-theme-reco-ldy",
     "escapedName": "vuepress-theme-reco-ldy",
-    "rawSpec": "1.1.1-ldy.2",
+    "rawSpec": "1.1.1-ldy.3",
     "saveSpec": null,
-    "fetchSpec": "1.1.1-ldy.2"
+    "fetchSpec": "1.1.1-ldy.3"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/vuepress-theme-reco-ldy/-/vuepress-theme-reco-ldy-1.1.1-ldy.2.tgz",
-  "_spec": "1.1.1-ldy.2",
+  "_resolved": "https://registry.npmjs.org/vuepress-theme-reco-ldy/-/vuepress-theme-reco-ldy-1.1.1-ldy.3.tgz",
+  "_spec": "1.1.1-ldy.3",
   "_where": "C:\\Users\\liudongyang\\IdeaProjects\\vueblog",
   "author": "ldy",
   "bugs": {
