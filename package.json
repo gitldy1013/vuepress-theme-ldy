@@ -1,37 +1,16 @@
 {
-  "_args": [
-    [
-      "vuepress-theme-ldy@1.1.1",
-      "C:\\Users\\liudongyang\\IdeaProjects\\vueblog"
-    ]
-  ],
-  "_from": "vuepress-theme-ldy@1.1.1",
-  "_inBundle": false,
-  "_integrity": "sha512-3XKYf2HjzOSjQsF2Us35uph8Cy925x2tFhvZTIzO9IA1/IAXrBpiG20DwZgVfXlJDAekWW2VNLEcBJofFPAvVA==",
-  "_location": "/vuepress-theme-ldy",
-  "_phantomChildren": {
-    "medium-zoom": "1.0.4"
-  },
-  "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "vuepress-theme-ldy@1.1.1",
-    "name": "vuepress-theme-ldy",
-    "escapedName": "vuepress-theme-ldy",
-    "rawSpec": "1.1.1",
-    "saveSpec": null,
-    "fetchSpec": "1.1.1"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/vuepress-theme-ldy/-/vuepress-theme-ldy-1.1.1.tgz",
-  "_spec": "1.1.1",
-  "_where": "C:\\Users\\liudongyang\\IdeaProjects\\vueblog",
+  "name": "@gitldy1013/vuepress-theme-ldy",
   "author": "gitldy1013",
-  "bugs": {
-    "url": "https://github.com/gitldy1013/vuepress-theme-ldy/issues"
+  "main": "index.js",
+  "license": "MIT",
+  "version": "1.1.2",
+  "homepage": "https://blog.liudongyang.top",
+  "scripts": {
+    "eslint-ext": "eslint --ext .js,.vue ./",
+    "eslint-fix": "eslint --fix --ext .js,.vue ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "description": "A simple and beautiful vuepress Blog & Doc theme.",
   "dependencies": {
     "@vuepress-reco/vuepress-plugin-back-to-top": "^1.0.3",
     "@vuepress-reco/vuepress-plugin-comments": "^1.0.7",
@@ -47,29 +26,22 @@
     "valine": "1.3.6",
     "vue-click-outside": "1.0.7"
   },
-  "description": "A simple and beautiful vuepress Blog & Doc theme.",
   "devDependencies": {
     "babel-eslint": "^10.0.3",
     "eslint": "^6.4.0",
     "eslint-plugin-vue": "^5.2.3"
   },
-  "homepage": "https://vuepress-theme-reco.recoluan.com",
   "keywords": [
     "vuepress",
-    "vue",
-    "theme"
+    "blog",
+    "theme",
+    "vue"
   ],
-  "license": "MIT",
-  "main": "index.js",
-  "name": "vuepress-theme-ldy",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gitldy1013/vuepress-theme-ldy.git"
   },
-  "scripts": {
-    "eslint-ext": "eslint --ext .js,.vue ./",
-    "eslint-fix": "eslint --fix --ext .js,.vue ./",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "version": "1.1.1"
+  "bugs": {
+    "url": "https://github.com/gitldy1013/vuepress-theme-ldy/issues"
+  }
 }
