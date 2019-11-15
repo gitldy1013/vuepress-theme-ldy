@@ -1,32 +1,32 @@
 {
   "_args": [
     [
-      "vuepress-theme-reco-ldy@1.1.1-ldy.3",
+      "vuepress-theme-ldy@1.1.1",
       "C:\\Users\\liudongyang\\IdeaProjects\\vueblog"
     ]
   ],
-  "_from": "vuepress-theme-reco-ldy@1.1.1-ldy.3",
+  "_from": "vuepress-theme-ldy@1.1.1",
   "_inBundle": false,
   "_integrity": "sha512-3XKYf2HjzOSjQsF2Us35uph8Cy925x2tFhvZTIzO9IA1/IAXrBpiG20DwZgVfXlJDAekWW2VNLEcBJofFPAvVA==",
-  "_location": "/vuepress-theme-reco-ldy",
+  "_location": "/vuepress-theme-ldy",
   "_phantomChildren": {
     "medium-zoom": "1.0.4"
   },
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "vuepress-theme-reco-ldy@1.1.1-ldy.3",
-    "name": "vuepress-theme-reco-ldy",
-    "escapedName": "vuepress-theme-reco-ldy",
-    "rawSpec": "1.1.1-ldy.3",
+    "raw": "vuepress-theme-ldy@1.1.1",
+    "name": "vuepress-theme-ldy",
+    "escapedName": "vuepress-theme-ldy",
+    "rawSpec": "1.1.1",
     "saveSpec": null,
-    "fetchSpec": "1.1.1-ldy.3"
+    "fetchSpec": "1.1.1"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/vuepress-theme-reco-ldy/-/vuepress-theme-reco-ldy-1.1.1-ldy.3.tgz",
-  "_spec": "1.1.1-ldy.3",
+  "_resolved": "https://registry.npmjs.org/vuepress-theme-ldy/-/vuepress-theme-ldy-1.1.1.tgz",
+  "_spec": "1.1.1",
   "_where": "C:\\Users\\liudongyang\\IdeaProjects\\vueblog",
   "author": "ldy",
   "bugs": {
@@ -61,7 +61,7 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "vuepress-theme-reco-ldy",
+  "name": "vuepress-theme-ldy",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gitldy1013/vuepress-theme-ldy.git"
@@ -71,5 +71,5 @@
     "eslint-fix": "eslint --fix --ext .js,.vue ./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.1.1-ldy.3"
+  "version": "1.1.1"
 }
