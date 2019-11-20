@@ -83,8 +83,8 @@ export default {
       }, 100)
     },
     _setPage (page) {
-      this.currentPage = page
-      this.$page.currentPage = page
+      this.currentPage = parseInt(page)
+      this.$page.currentPage = parseInt(page)
     }
   }
 }
