@@ -147,8 +147,8 @@ export default {
       window.location.href = `${base}tag/?tag=${currentTag}`
     },
     _setPage (page) {
-      this.currentPage = page
-      this.$page.currentPage = page
+      this.currentPage = parseInt(page)
+      this.$page.currentPage = parseInt(page)
     }
   }
 }
