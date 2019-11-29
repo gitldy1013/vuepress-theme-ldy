@@ -3,32 +3,37 @@
   "author": "gitldy1013",
   "main": "index.js",
   "license": "MIT",
-  "version": "1.1.5",
+  "version": "1.2.0",
   "homepage": "https://blog.liudongyang.top",
   "scripts": {
     "eslint-ext": "eslint --ext .js,.vue ./",
     "eslint-fix": "eslint --fix --ext .js,.vue ./",
+    "build": "vuepress build example/docs",
+    "dev": "vuepress dev example/docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "description": "A simple and beautiful vuepress Blog & Doc theme.",
   "dependencies": {
-    "@vuepress-reco/vuepress-plugin-comments": "^1.0.7",
+    "@vuepress-reco/vuepress-plugin-comments": "^1.0.8",
     "@vuepress-reco/vuepress-plugin-extract-code": "^1.0.3",
     "@vuepress-reco/vuepress-plugin-ga": "^1.0.2",
     "@vuepress-reco/vuepress-plugin-loading-page": "^1.0.0",
-    "@vuepress-reco/vuepress-plugin-pagation": "^1.0.3",
-    "@vuepress-reco/vuepress-plugin-screenfull": "^1.0.0",
+    "@vuepress-reco/vuepress-plugin-pagation": "^1.0.4",
+    "@vuepress-reco/vuepress-plugin-screenfull": "^1.0.1",
     "@vuepress/plugin-blog": "1.3.0",
     "@vuepress/plugin-medium-zoom": "1.2.0",
     "docsearch.js": "^2.5.2",
     "leancloud-storage": "3.13.2",
+    "md5": "2.2.1",
     "valine": "1.3.6",
     "vue-click-outside": "1.0.7"
   },
+  "deprecated": false,
   "devDependencies": {
     "babel-eslint": "^10.0.3",
     "eslint": "^6.4.0",
-    "eslint-plugin-vue": "^5.2.3"
+    "eslint-plugin-vue": "^5.2.3",
+    "vuepress": "1.2.0"
   },
   "keywords": [
     "vuepress",
@@ -42,5 +47,8 @@
   },
   "bugs": {
     "url": "https://github.com/gitldy1013/vuepress-theme-ldy/issues"
+  },
+  "directories": {
+    "example": "example"
   }
 }

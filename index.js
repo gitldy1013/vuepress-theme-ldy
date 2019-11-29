@@ -18,11 +18,11 @@ module.exports = (options, ctx) => ({
   },
 
   plugins: [
+    '@vuepress-reco/back-to-top',
     '@vuepress-reco/extract-code',
     '@vuepress-reco/loading-page',
     '@vuepress-reco/pagation',
     '@vuepress-reco/screenfull',
-    '@vuepress-reco/ga',
     '@vuepress-reco/comments',
     '@vuepress/active-header-links',
     ['@vuepress/medium-zoom', {
