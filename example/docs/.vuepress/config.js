@@ -1,5 +1,5 @@
 module.exports = {
-  title: "VuePress-theme-ldy",
+  title: "vuepress-theme-reco",
   description: 'A simple and beautiful vuepress blog theme .',
   dest: 'example/docs/public',
   head: [

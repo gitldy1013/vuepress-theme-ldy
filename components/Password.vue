@@ -16,7 +16,7 @@
     <div class="footer">
       <span>
         <i class="iconfont reco-theme"></i>
-        <a target="blank" href="https://github.com/gitldy1013/vuepress-theme-ldy.git">vuePress-theme-ldy</a>
+        <a target="blank" href="https://vuepress-theme-reco.recoluan.com">vuePress-theme-reco</a>
       </span>
       <span>
         <i class="iconfont reco-other"></i>
