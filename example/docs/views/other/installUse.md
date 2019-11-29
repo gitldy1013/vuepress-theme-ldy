@@ -8,11 +8,11 @@ categories:
 ## Install
 
 ```bash
-npm install vuepress-theme-reco -dev--save
+npm install VuePress-theme-ldy -dev--save
 
 # or
 
-yarn add vuepress-theme-reco
+yarn add VuePress-theme-ldy
 ```
 
 ## Usage
