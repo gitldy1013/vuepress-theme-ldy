@@ -93,9 +93,10 @@ export default {
     },
     bgImageStyle () {
       const initBgImageStyle = {
+        backgroundPosition: 'top center',
         height: '350px',
         textAlign: 'center',
-        overflow: 'hidden'
+        overflow: 'hidden',
       }
       const {
         bgImageStyle
