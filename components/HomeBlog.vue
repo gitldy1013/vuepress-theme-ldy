@@ -1,6 +1,6 @@
 <template>
   <div id="homeBlog" class="home-blog" :class="recoShow?'reco-show': 'reco-hide'">
-    <div class="hero" ref="homeBlog" @click="changeBg()" :style="{background: `url(${$frontmatter.bgImage[Math.round(Math.random()*($frontmatter.bgImage.length-1))] ? $withBase($frontmatter.bgImage[Math.round(Math.random()*($frontmatter.bgImage.length-1))]) : require('../images/home-bg.jpg')}) center/cover no-repeat`, ...bgImageStyle}">
+    <div class="hero" ref="homeBlog" @click="changeBg()" :style="{background: `url(${$frontmatter.bgImage[Math.round(Math.random()*($frontmatter.bgImage.length-1))] ? $withBase($frontmatter.bgImage[Math.round(Math.random()*($frontmatter.bgImage.length-1))]) : require('../images/home-bg.jpg')}) top center/cover no-repeat`, ...bgImageStyle}">
       <h1>{{ $frontmatter.heroText || $title || '午后南杂' }}</h1>
 
       <p class="description">{{ $description || 'Welcome to your vuePress-theme-reco site' }}</p>
@@ -93,7 +93,6 @@ export default {
     },
     bgImageStyle () {
       const initBgImageStyle = {
-        backgroundPosition: 'top center',
         height: '350px',
         textAlign: 'center',
         overflow: 'hidden',
@@ -125,27 +124,28 @@ export default {
       let pages = this.$site.pages
       pages = pages.filter(item => {
         const { home, date } = item.frontmatter
-        return !(home == true || date === undefined)
+        return !(home === true || date === undefined)
       })
       // reverse()是为了按时间最近排序排序
-      this.pages = pages.length == 0 ? [] : pages
+      this.pages = pages.length === 0 ? [] : pages
     },
     getPagesByTags (tagInfo) {
       this.$router.push({ path: tagInfo.path })
     },
     _setPage (page) {
-      this.currentPage = page
-      this.$page.currentPage = page
+      this.currentPage = page,
+      this.$page.currentPage = page,
       this._setStoragePage(page)
     },
     changeBg (){
         const self = this;
-        if(self.bgIndex + 1 == this.$frontmatter.bgImage.length - 1){
+        if(self.bgIndex + 1 === this.$frontmatter.bgImage.length - 1){
             self.bgIndex = 0;
         }else {
             self.bgIndex = self.bgIndex + 1;
         }
-        self.$refs.homeBlog.style.background = "url("+this.$frontmatter.bgImage[self.bgIndex]+")"
+        self.$refs.homeBlog.style.backgroundPosition = "top center";
+        self.$refs.homeBlog.style.background = "url("+this.$frontmatter.bgImage[self.bgIndex]+")";
     }
   }
 }
