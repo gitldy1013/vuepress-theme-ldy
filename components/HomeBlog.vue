@@ -144,8 +144,8 @@ export default {
         }else {
             self.bgIndex = self.bgIndex + 1;
         }
-        self.$refs.homeBlog.style.backgroundPosition = "top center";
         self.$refs.homeBlog.style.background = "url("+this.$frontmatter.bgImage[self.bgIndex]+")";
+        self.$refs.homeBlog.style.backgroundPosition = "top center";
     }
   }
 }

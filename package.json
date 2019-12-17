@@ -3,7 +3,7 @@
   "author": "gitldy1013",
   "main": "index.js",
   "license": "MIT",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "homepage": "https://blog.liudongyang.top",
   "scripts": {
     "eslint-ext": "eslint --ext .js,.vue ./",
