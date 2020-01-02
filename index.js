@@ -3,33 +3,32 @@ const path = require('path')
 // Theme API.
 module.exports = (options, ctx) => ({
   alias () {
-    const { themeConfig, siteConfig } = ctx;
+    const { themeConfig, siteConfig } = ctx
     // resolve algolia
     const isAlgoliaSearch = (
       themeConfig.algolia ||
       Object.keys(siteConfig.locales && themeConfig.locales || {})
         .some(base => themeConfig.locales[base].algolia)
-    );
+    )
     return {
       '@AlgoliaSearchBox': isAlgoliaSearch
         ? path.resolve(__dirname, 'components/AlgoliaSearchBox.vue')
-        : path.resolve(__dirname, 'noopModule.js')
+        : path.resolve(__dirname, 'noopModule.js'),
+      '@SearchBox': path.resolve(__dirname, 'components/SearchBox.vue')
     }
   },
 
   plugins: [
+    '@vuepress-reco/back-to-top',
     '@vuepress-reco/extract-code',
     '@vuepress-reco/loading-page',
     '@vuepress-reco/pagation',
-    '@vuepress-reco/screenfull',
-    '@vuepress-reco/ga',
     '@vuepress-reco/comments',
     '@vuepress/active-header-links',
     ['@vuepress/medium-zoom', {
       selector: '.theme-reco-content :not(a) > img'
     }],
     '@vuepress/plugin-nprogress',
-    '@vuepress/search',
     ['@vuepress/plugin-blog', {
       permalink: '/:regular',
       frontmatters: [
@@ -75,4 +74,4 @@ module.exports = (options, ctx) => ({
       }
     }]
   ]
-});
+})
